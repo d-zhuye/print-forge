@@ -8,7 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${albertSans.variable} ${montserrat.variable}`}>
-      <body className="p-[5%] flex flex-col items-center">{children}</body>
+      <body className="flex flex-col items-center">{children}</body>
     </html>
   );
 }
