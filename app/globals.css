@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body > * {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 h1,
 h2,
 h3,
