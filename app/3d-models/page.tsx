@@ -11,7 +11,9 @@ export default async function Models() {
 
   return (
     <main>
-      <section className="flex flex-col gap-4">{modelElements}</section>
+      <section className="w-full grid grid-cols-2 grid-rows-[1fr] gap-4">
+        {modelElements}
+      </section>
     </main>
   );
 }
