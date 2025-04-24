@@ -4,8 +4,8 @@ import heroImg from "../public/hero-image.png";
 export default function App() {
   return (
     <>
-      <main className="w-11/12 lg:flex lg:gap-16 lg:justify-between lg:items-center">
-        <section className="lg:w-1/2 flex flex-col gap-4 lg:gap-2 items-start justify-start">
+      <main className="mx-auto mt-8 lg:flex lg:gap-16 lg:justify-between lg:items-center">
+        <section className="w-full lg:w-1/2 flex flex-col gap-4 lg:gap-2 items-start justify-start">
           <p className="hidden lg:block uppercase ">
             Your go-to platform for 3D printing files
           </p>
@@ -21,7 +21,8 @@ export default function App() {
             Browse Models
           </a>
         </section>
-        <div className="w-screen md:w-2/3 mx-auto aspect-square relative left-[-1rem] flex justify-center items-center">
+        {/* Hero Image */}
+        <div className="w-screen mx-auto mt-3 aspect-square absolute left-0 md:relative flex justify-center items-center  md:w-2/3">
           <Image
             src={heroImg}
             alt="marble scultures on table"
