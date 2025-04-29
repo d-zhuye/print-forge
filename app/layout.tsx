@@ -18,12 +18,16 @@ export default function RootLayout({
             {/* Mobile & Tablet Logo */}
             <Image
               className="w-12 h-12 md:hidden"
+              width={39}
+              height={40}
               src={logoIcon}
               alt="Print Forge logo icon"
             />
             {/* Desktop Logo */}
             <Image
               className="hidden md:inline-block"
+              width={240}
+              height={61}
               src={logo}
               alt="Print Forge logo"
             />

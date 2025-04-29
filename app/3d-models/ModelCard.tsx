@@ -10,7 +10,13 @@ export default function ModelCard({ model }: { model: Model }) {
   return (
     <span className="flex flex-col">
       <Link href={`/3d-models/${slug}`}>
-        <Image className="rounded-t-xl" src={heroImage} alt={model.name} />
+        <Image
+          width={800}
+          height={800}
+          className="rounded-t-xl"
+          src={heroImage}
+          alt={model.name}
+        />
       </Link>
       <div className="grow   p-2 border-[1px] border-neutral-600/50 rounded-b-xl flex flex-col gap-4">
         <h3>{model.name}</h3>

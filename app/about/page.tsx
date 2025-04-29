@@ -13,6 +13,8 @@ export default function About() {
       className="w-screen p-[5vw] flex flex-col lg:flex-row lg:flex-wrap lg:gap-8 lg:justify-center lg:items-center"
     >
       <Image
+        width={800}
+        height={800}
         className="md:w-full md:h-[200px] md:object-cover md:object-[0%_30%] lg:h-[300px] xl:w-[43vw] xl:h-[43vw]"
         src={heroImg}
         alt="marble sculptures on table"

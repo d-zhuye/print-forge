@@ -25,6 +25,8 @@ export default function App() {
         <div className="w-screen mx-auto mt-3 aspect-square absolute left-0 md:relative flex justify-center items-center  md:w-2/3">
           <Image
             src={heroImg}
+            width={800}
+            height={800}
             alt="marble scultures on table"
             className="rounded-full"
           />

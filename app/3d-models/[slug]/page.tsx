@@ -31,7 +31,7 @@ export default async function ModelDetails({
         Back to overview
       </Link>
       <section className="flex flex-col justify-start items-start gap-4">
-        <Image src={heroImage} alt={model.name} />
+        <Image width={800} height={800} src={heroImage} alt={model.name} />
         <div className="text-2xl flex items-center gap-1 mt-auto">
           <FaRegHeart className="hover:fill-red-700 hover:cursor-pointer" />
           <p>{model.likes}</p>
